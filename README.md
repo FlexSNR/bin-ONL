@@ -8,11 +8,6 @@ Turn on some configuration in kernel config to enable network features.
 * CONFIG_BONDING
 
 
-### Recover the ONL_INSTALLER image
-```
-cat ONL-2.0.0.tar.* | tar -xvf -
-```
-
 ### Checksum
 ```
 sha256sum -c ONL-2.0.0.sha256
